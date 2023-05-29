@@ -1742,7 +1742,9 @@ async def advantage_spell_chok(client, msg):
         k = await msg.reply_photo(
             photo=SPELL_IMG, 
             caption=script.I_CUDNT.format(mv_rqst),
-            reply_markup=InlineKeyboardButton([[InlineKeyboardButton('🦋 Join Backup 🌹', url=f'https://t.me/moviieeadda3')]])
+            Reply_markup= [
+                    InlineKeyboardButton('Backup Channel ', url=f'http://t.me/moviieeadda3')
+                ]
         )
         await asyncio.sleep(30)
         await k.delete()
@@ -1758,7 +1760,9 @@ async def advantage_spell_chok(client, msg):
         k = await msg.reply_photo(
             photo=SPELL_IMG, 
             caption=script.I_CUDNT.format(mv_rqst),
-            reply_markup=InlineKeyboardButton([[InlineKeyboardButton('🦋 Join Backup 🌹', url=f'https://t.me/moviieeadda3')]])
+            Reply_markup= [
+                    InlineKeyboardButton('Backup Channel ', url=f'http://t.me/moviieeadda3')
+                ]
         )
         await asyncio.sleep(30)
         await k.delete()
